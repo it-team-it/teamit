@@ -1,0 +1,386 @@
+/*мобильная версия
+пожалуйста, когда будете переходить на мобильную версию - обновите страничку*/
+
+@media (min-width: 350px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+    body{
+        position: relative;
+        width: 210vw;
+    }
+    main{
+        margin-left: 100px;
+        
+    }
+    .pred{
+        width: 90%;
+        height: 100px;
+        color: white;
+        margin: auto;
+        text-align: end;
+        font-size: large;
+        font-weight: 600;
+        background-color: rgba(0, 0, 0, 0.582);
+    
+    }   
+    .container{
+        /*display: flex;
+        align-items: center;
+        justify-content: space-around;*/
+        padding: 10px;
+        border: 1px solid black;
+        width: 210vw;
+    }
+    .firsthead{
+        background-image: url(https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_1280.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 210vw;
+        height: auto;
+        margin: 0px;
+    }
+    .main_img{
+        display: inline-flex;
+        margin: 20px 25%;
+        width: 50%;
+        height: 200px;
+       border: 1px dotted white;
+       background-position: initial;
+       background-size: cover;
+       
+    }
+    li{
+        display: block;
+        margin: 5px;
+        background-color: lightblue;
+        border: 1px solid black;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:visited{
+        color: rgb(11, 11, 128);
+    }
+    nav{
+        position: absolute;
+        position: fixed;
+        top: 1%;
+        left: 0%;
+        width: 200px;
+        height: 50px;
+        overflow: hidden;
+        transition: 1s;
+        font-family: 'Jost', sans-serif;
+        z-index: 99;
+    }
+    nav:hover{
+        height: 200px;
+        transition: 1s;
+    }
+    nav:hover .menu{
+        background-color: lightcyan;
+        transition: 0.5s;
+        border-color: purple;
+    }
+    ul{
+        padding-left: 0px;
+    }
+    .menu{
+        display: block;
+        background-color: rgb(162, 162, 236);
+        width: 100px;
+        height: 25px;
+        border-radius: 10%;
+        border: 2px solid rgb(40, 40, 133);
+        text-align: center;
+        padding: 5px;
+        font-size: larger;
+        
+    }
+    
+    
+    article{
+        display: inline-block;
+        width: 90%;
+        border-left: 2px double black;
+        border-top: 2px dotted black;
+        margin: 15px;
+        padding: 20px;
+        position: relative;
+    }
+    .i1{
+        display: inline-block;
+        width: 80%;
+        margin: 50px;
+    }
+    #stat{
+        width: 60%;
+        margin: 20px;
+    }
+    .i2{
+        width: 230px;
+        height: 200px;
+        background-image: url(https://cdn.pixabay.com/photo/2016/10/18/19/40/anatomy-1751201_1280.png);
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        left: 65%;
+        top: 60%;
+
+    }
+    .flex-cont{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    
+    #an{
+        position: absolute;
+        background-color: rgb(137, 221, 162);
+        left: 65%;
+        top: 25%;
+        padding: 2%;
+        width: 30%;
+        font-family: 'Merriweather', serif;
+        text-align: center;
+        font-size: medium;
+    }
+    p{
+        display: inline-block;
+        font-family: 'Playfair Display', serif;
+        font-size: large;
+    }
+    
+    h1{
+        background-color: white;
+        padding: 5px;
+        margin-top: 50px;
+        margin-left: 100px;
+        font-family: 'Playfair Display', serif;
+        
+        
+    }
+    
+    h3{
+        font-size: larger;
+        background-color: white;
+        font-family: 'Playfair Display', serif;
+    }
+    h2{
+        font-size: xx-large;
+        font-family: 'Oswald', sans-serif;
+        margin-left: 10%;
+    }
+    .button{
+        display: block;
+        width: 15%;
+        height: 2%;
+        margin: 10% 40%;
+        text-align: center;
+        background-color: white;
+        font-size: larger;
+        padding: 1%;
+       border-radius: 20%;
+        border: 1px solid black;
+        border-left: 10px solid black;
+    }
+    .button:hover{
+        border-left: 1px solid black;
+        border-right: 10px solid black;
+        border-radius: 20%;
+        transition: 0.5s;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/*обычная версия*/
+
+@media (min-width: 1024px){
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+body{
+    position: relative;
+    width: auto;
+}
+main{
+    margin-left: 100px;
+    
+}
+.pred{
+    width: 500px;
+    height: auto;
+    color: white;
+    padding: 10px;
+    margin-left: 50px;
+
+}   
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid black;
+    width: auto;
+}
+
+.main_img{
+    display: inline-flex;
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+   border: 1px dotted white;
+}
+li{
+    display: block;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: rgb(11, 11, 128);
+}
+nav{
+    position: absolute;
+    position: fixed;
+    top: 1%;
+    left: 0%;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    transition: 1s;
+    font-family: 'Jost', sans-serif;
+    z-index: 99;
+}
+nav:hover{
+    height: 200px;
+    transition: 1s;
+}
+nav:hover .menu{
+    background-color: lightcyan;
+    transition: 0.5s;
+    border-color: purple;
+}
+ul{
+    padding-left: 0px;
+}
+.menu{
+    display: block;
+    background-color: rgb(162, 162, 236);
+    width: 100px;
+    height: 25px;
+    border-radius: 10%;
+    border: 2px solid rgb(40, 40, 133);
+    text-align: center;
+    padding: 5px;
+    font-size: larger;
+    
+}
+
+
+article{
+    display: inline-block;
+    width: 60%;
+    border-left: 2px double black;
+    border-top: 2px dotted black;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+}
+.i1{
+    display: inline-block;
+    width: 80%;
+    margin: 50px;
+}
+.i2{
+    display: inline-block;
+    width: 30vw;
+    height: 50vh;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/18/19/40/anatomy-1751201_1280.png);
+    background-size: cover;
+}
+.flex-cont{
+    display: inline-flex;
+    flex-direction: column;
+}
+.flex-cont2{
+    display: inline-flex;
+    align-items: center;
+}
+#an{
+    position: absolute;
+    background-color: rgb(137, 221, 162);
+    left: 105%;
+    top: 17%;
+    padding: 2%;
+    width: 45%;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    font-size: large;
+}
+p{
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+}
+.firsthead{
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/26/23/52/technology-785742_1280.jpg);
+    background-size: cover;
+    width: auto;
+    height: 20%;
+    margin: 0px;
+}
+h1{
+    background-color: cornsilk;
+    padding: 5px;
+
+    font-family: 'Playfair Display', serif;
+}
+
+h3{
+    font-size: larger;
+    background-color: white;
+    font-family: 'Playfair Display', serif;
+}
+h2{
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10%;
+}
+.button{
+    display: block;
+    width: 15%;
+    height: 2%;
+    margin: 10% 40%;
+    text-align: center;
+    background-color: white;
+    font-size: larger;
+    padding: 1%;
+   border-radius: 20%;
+    border: 1px solid black;
+    border-left: 10px solid black;
+}
+.button:hover{
+    border-left: 1px solid black;
+    border-right: 10px solid black;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+}

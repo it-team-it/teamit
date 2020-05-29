@@ -1,0 +1,483 @@
+
+/*мобильная версия*/
+@media (min-width: 350px){
+body{
+    position: relative;
+    width: 210vw;
+    
+}
+main{
+    margin-left: 100px;
+    
+}
+.pred{
+    width: 200px;
+    height: 150px;
+    color: white;
+    display: inline-flex;
+    margin: 1%;
+    margin-left: 70%;
+    text-align: end;
+    font-size: large;
+    font-weight: 700;
+}   
+.container{
+    border: 2px solid black;
+    z-index: 99;
+    width: 210vw;
+    height: 250px;
+}
+.firsthead{
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/05/19/23/eye-2040986_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: 250px;
+    margin: 0px;
+}
+.main_img{
+    display: inline-flex;
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+   border: 1px solid white;
+   animation: rotate 2s infinite linear normal;
+   animation-delay: 2s;
+   z-index: 100;
+   display: none;
+}
+li{
+    display: block;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: rgb(11, 11, 128);
+}
+nav{
+    position: absolute;
+    position: fixed;
+    top: 1%;
+    left: 0%;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    transition: 1s;
+    font-family: 'Jost', sans-serif;
+    z-index: 200;
+}
+nav:hover{
+    height: 200px;
+    transition: 1s;
+}
+nav:hover .menu{
+    background-color: lightcyan;
+    transition: 0.5s;
+    border-color: purple;
+}
+ul{
+    padding-left: 0px;
+}
+.menu{
+    display: block;
+    background-color: rgb(162, 162, 236);
+    width: 100px;
+    height: 25px;
+    border-radius: 10%;
+    border: 2px solid rgb(40, 40, 133);
+    text-align: center;
+    padding: 5px;
+    font-size: larger;
+}
+
+
+article{
+    display: inline-block;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 50px;
+    border-top-left-radius: 15em 1em ;
+    border-bottom-right-radius: 15em 1em;
+    border-style: solid;
+    border-color: grey;
+    position: relative;
+}
+#ar2{
+    background-image: url(https://cdn.pixabay.com/photo/2012/12/09/00/16/smoke-69124_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+  
+}
+.text2{
+    background-color: rgba(0, 0, 0, 0.699);
+}
+.i1{
+    display: inline-block;
+    width: 80%;
+    margin: 10px;
+    border: 20px groove #e3e3e3;
+}
+
+.flex-cont{
+    display: inline-flex;
+    flex-direction: column;
+}
+p{
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+}
+
+h1{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+    text-align: end;
+    width: auto;
+}
+
+h3{
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    display: inline;
+    
+}
+h2{
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10%;
+    
+}
+#like{
+    display: inline-block;
+    height: 15%;
+    width: 15%;
+   
+}
+.merch{
+    width: 40%;
+    display: inline-block;
+    border: 4px double white;
+    margin: 10px;
+    padding: 10px;
+}
+#con{
+ position: fixed;
+ top: 75%;
+ left: 80%;
+ font-size: x-large;
+ text-align: center;
+}
+.contacts{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    vertical-align: center;
+    margin: 10px;
+    z-index: 3;
+    transition: 1s;
+    
+}
+#firstcon{
+    top: 80%;
+    left: 85%;
+    background-image: url(tiktok.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#firstcon:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#secondcon{
+    top:87%;
+    left:85%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/04/18/58/instagram-1882330_960_720.png);
+    background-size: cover;
+    background-position: center;
+}
+#secondcon:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.button{
+    display: block;
+    width: 15%;
+    height: 2%;
+    margin: 10% 40%;
+    text-align: center;
+    background-color: white;
+    font-size: larger;
+    padding: 1%;
+    border-radius: 20%;
+    border: 1px solid black;
+    border-right: 10px solid black;
+}
+.button:hover{
+    border-right: 1px solid black;
+    border-left: 10px solid black;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*обычная версия*/
+@media (min-width: 1024px){
+
+body{
+    position: relative;
+    width: auto;
+}
+main{
+    margin-left: 100px;
+    
+}
+.pred{
+    width: 500px;
+    height: 200px;
+    color: white;
+    display: inline-flex;
+    margin: 1%;
+}   
+.container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    z-index: 99;
+    width: auto;
+    height: auto;
+}
+.firsthead{
+    background-image: url(https://cdn.pixabay.com/photo/2017/02/05/19/23/eye-2040986_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+.main_img{
+    display: inline-flex;
+    margin: 40px;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+   border: 1px solid white;
+   animation: rotate 2s infinite linear normal;
+   animation-delay: 2s;
+   z-index: 100;
+}
+li{
+    display: block;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: rgb(11, 11, 128);
+}
+nav{
+    position: absolute;
+    position: fixed;
+    top: 1%;
+    left: 0%;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    transition: 1s;
+    font-family: 'Jost', sans-serif;
+    z-index: 200;
+}
+nav:hover{
+    height: 200px;
+    transition: 1s;
+}
+nav:hover .menu{
+    background-color: lightcyan;
+    transition: 0.5s;
+    border-color: purple;
+}
+ul{
+    padding-left: 0px;
+}
+.menu{
+    display: block;
+    background-color: rgb(162, 162, 236);
+    width: 100px;
+    height: 25px;
+    border-radius: 10%;
+    border: 2px solid rgb(40, 40, 133);
+    text-align: center;
+    padding: 5px;
+    font-size: larger;
+}
+
+
+article{
+    display: inline-block;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 50px;
+    border-top-left-radius: 15em 1em ;
+    border-bottom-right-radius: 15em 1em;
+    border-style: solid;
+    border-color: grey;
+    position: relative;
+}
+#ar2{
+    background-image: url(https://cdn.pixabay.com/photo/2012/12/09/00/16/smoke-69124_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    
+}
+.i1{
+    display: inline-block;
+    width: 40%;
+    margin: 10px;
+    border: 20px groove #e3e3e3;
+}
+
+.flex-cont{
+    display: inline-flex;
+    flex-direction: column;
+}
+p{
+    display: inline-block;
+    font-family: 'Playfair Display', serif;
+    font-size: medium;
+}
+
+h1{
+    background-color: cornsilk;
+    padding: 5px;
+    font-family: 'Playfair Display', serif;
+    margin: 100px 30px;
+    text-align: center;
+}
+
+h3{
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    display: inline;
+    
+}
+h2{
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 10%;
+    
+}
+#like{
+    display: inline-block;
+    height: 8%;
+    width: 8%;
+   
+}
+.merch{
+    width: 30%;
+    display: inline-block;
+    border: 4px double white;
+    margin: 10px;
+    padding: 10px;
+}
+#con{
+ position: fixed;
+ top: 20%;
+ left: 80%;
+ font-size: x-large;
+ text-align: center;
+}
+.contacts{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    vertical-align: center;
+    margin: 10px;
+    z-index: 3;
+    transition: 1s;
+    
+}
+#firstcon{
+    top: 30%;
+    left: 80%;
+    background-image: url(tiktok.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#firstcon:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+#secondcon{
+    top:55%;
+    left:80%;
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/04/18/58/instagram-1882330_960_720.png);
+    background-size: cover;
+    background-position: center;
+}
+#secondcon:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+.button{
+    display: block;
+    width: 15%;
+    height: 2%;
+    margin: 10% 40%;
+    text-align: center;
+    background-color: white;
+    font-size: larger;
+    padding: 1%;
+    border-radius: 20%;
+    border: 1px solid black;
+    border-right: 10px solid black;
+}
+.button:hover{
+    border-right: 1px solid black;
+    border-left: 10px solid black;
+    border-radius: 20%;
+    transition: 0.5s;
+}
+}
